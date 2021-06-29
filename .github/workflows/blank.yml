@@ -27,7 +27,7 @@ jobs:
 
       # Run single shell-line 1
       - name: Run shell-line
-        run: pause
+        run: echo hello action
       # Run multiple shell-line
       - name: Run a multi-line script
         run: |
